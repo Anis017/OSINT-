@@ -2,9 +2,9 @@
 
 Given a person's name, this tool:
 
-1. **Web searches** — runs a set of smart, targeted DuckDuckGo queries
+1. **Web searches**  runs a set of smart, targeted DuckDuckGo queries
    (name + linkedin, + github, + twitter, + news, etc.)
-2. **GitHub lookup** — checks GitHub's public search API for matching
+2. **GitHub lookup**  checks GitHub's public search API for matching
    profile names
 3. **Username enumeration** — generates plausible usernames from the
    name (`janedoe`, `jane.doe`, `jdoe`, ...) and checks ~19 major
@@ -13,7 +13,7 @@ Given a person's name, this tool:
 4. **Email pattern suggestions** (optional) — if you give it a company
    domain, it suggests likely email address *patterns* (not verified,
    just candidates like `jane.doe@company.com`)
-5. **Report generation** — writes a Markdown + JSON report to `output/`
+5. **Report generation** writes a Markdown + JSON report to `output/`
 
 ## What this tool deliberately does NOT do
 
@@ -57,7 +57,7 @@ Reports land in `output/<name>_<timestamp>.md` and `.json`.
 
 ## Extending it
 
-- Add more platforms: edit `data/sites.json` — just add a URL template
+- Add more platforms: edit `data/sites.json`  just add a URL template
   and how to detect a 404 (`status_code` or `text_match`).
 - Add more public APIs (e.g. a company's public employee directory,
   a public Mastodon instance search) as new files in `modules/`,
