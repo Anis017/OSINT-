@@ -6,11 +6,11 @@ Given a person's name, this tool:
    (name + linkedin, + github, + twitter, + news, etc.)
 2. **GitHub lookup**  checks GitHub's public search API for matching
    profile names
-3. **Username enumeration** — generates plausible usernames from the
+3. **Username enumeration**  generates plausible usernames from the
    name (`janedoe`, `jane.doe`, `jdoe`, ...) and checks ~19 major
    platforms for a live public profile at that handle (same as you
    manually visiting `github.com/jane doe` in a browser)
-4. **Email pattern suggestions** (optional) — if you give it a company
+4. **Email pattern suggestions** (optional) if you give it a company
    domain, it suggests likely email address *patterns* (not verified,
    just candidates like `jane.doe@company.com`)
 5. **Report generation** writes a Markdown + JSON report to `output/`
