@@ -1,0 +1,97 @@
+{
+  "GitHub": {
+    "url": "https://github.com/{username}",
+    "error_type": "status_code",
+    "error_code": 404
+  },
+  "Twitter/X": {
+    "url": "https://x.com/{username}",
+    "error_type": "status_code",
+    "error_code": 404
+  },
+  "Instagram": {
+    "url": "https://www.instagram.com/{username}/",
+    "error_type": "status_code",
+    "error_code": 404
+  },
+  "Reddit": {
+    "url": "https://www.reddit.com/user/{username}/about.json",
+    "error_type": "status_code",
+    "error_code": 404
+  },
+  "GitLab": {
+    "url": "https://gitlab.com/{username}",
+    "error_type": "status_code",
+    "error_code": 404
+  },
+  "Medium": {
+    "url": "https://medium.com/@{username}",
+    "error_type": "status_code",
+    "error_code": 404
+  },
+  "Pinterest": {
+    "url": "https://www.pinterest.com/{username}/",
+    "error_type": "status_code",
+    "error_code": 404
+  },
+  "TikTok": {
+    "url": "https://www.tiktok.com/@{username}",
+    "error_type": "status_code",
+    "error_code": 404
+  },
+  "YouTube": {
+    "url": "https://www.youtube.com/@{username}",
+    "error_type": "status_code",
+    "error_code": 404
+  },
+  "SoundCloud": {
+    "url": "https://soundcloud.com/{username}",
+    "error_type": "status_code",
+    "error_code": 404
+  },
+  "Twitch": {
+    "url": "https://www.twitch.tv/{username}",
+    "error_type": "status_code",
+    "error_code": 404
+  },
+  "Steam": {
+    "url": "https://steamcommunity.com/id/{username}",
+    "error_type": "text_match",
+    "error_text": "The specified profile could not be found"
+  },
+  "Keybase": {
+    "url": "https://keybase.io/{username}",
+    "error_type": "status_code",
+    "error_code": 404
+  },
+  "DevTo": {
+    "url": "https://dev.to/{username}",
+    "error_type": "status_code",
+    "error_code": 404
+  },
+  "HackerNews": {
+    "url": "https://news.ycombinator.com/user?id={username}",
+    "error_type": "text_match",
+    "error_text": "No such user"
+  },
+  "Behance": {
+    "url": "https://www.behance.net/{username}",
+    "error_type": "status_code",
+    "error_code": 404
+  },
+  "Dribbble": {
+    "url": "https://dribbble.com/{username}",
+    "error_type": "status_code",
+    "error_code": 404
+  },
+  "VK": {
+    "url": "https://vk.com/{username}",
+    "error_type": "status_code",
+    "error_code": 404
+  },
+  "Telegram": {
+    "url": "https://t.me/{username}",
+    "error_type": "text_match",
+    "error_text": "If you have Telegram, you can contact"
+  }
+}
